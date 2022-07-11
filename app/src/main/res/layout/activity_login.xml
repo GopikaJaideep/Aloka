@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lpgin">
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView"
@@ -99,10 +99,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="155dp"
         android:layout_marginBottom="161dp"
-        android:background="traansparant"
+        android:backgroundTint="#3949AB"
         android:text="LOGIN"
         android:textAlignment="center"
-        android:textColor="#3949AB"
+        android:textColor="#F6F6F8"
         android:textSize="18dp"
         android:textStyle="bold"
         android:typeface="serif"

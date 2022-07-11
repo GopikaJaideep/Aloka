@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_lpgin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_registration.xml" value="0.264" />
       </map>
     </option>
   </component>

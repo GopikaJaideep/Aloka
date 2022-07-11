@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aloka">
         <activity
-            android:name=".Lpgin"
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
