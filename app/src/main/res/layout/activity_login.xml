@@ -24,7 +24,7 @@
         android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="130dp"
-        android:text="LOGIN"
+        android:text="@string/login"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:textColor="#3949AB"
