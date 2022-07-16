@@ -4,70 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="290dp"
-        android:layout_height="50dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="248dp"
+        android:layout_above="@+id/aloka"
+        android:layout_below="@+id/aloka"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="378dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/aloka"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/auth"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="109dp"
         android:text="ALOKA"
         android:textAlignment="center"
         android:textColor="#3949AB"
         android:textSize="34sp"
         android:textStyle="bold"
-        android:typeface="serif"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="322dp" />
+        android:typeface="serif" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <Button
+        android:id="@+id/auth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="97dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/Logo"
-        tools:layout_editor_absoluteY="53dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="114dp"
-        android:layout_height="68dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="52dp"
-        android:layout_marginBottom="132dp"
-        android:backgroundTint="#3949AB"
-        android:text="LOGIN"
-        android:textAlignment="center"
-        android:textColor="#F6F6F8"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="579dp" />
+        android:layout_marginStart="147dp"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/mic" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="72dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="126dp"
-        android:backgroundTint="#3949AB"
-        android:text="REGISTER"
-        android:textAlignment="center"
-        android:textColor="#F6F6F8"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        tools:layout_editor_absoluteX="242dp"
-        tools:layout_editor_absoluteY="579dp" />
 
 </RelativeLayout>
+
