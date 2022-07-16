@@ -1,6 +1,4 @@
 package myapp.t11.aloka
-
-
 import android.app.KeyguardManager
 import android.content.Context
 import android.content.DialogInterface
