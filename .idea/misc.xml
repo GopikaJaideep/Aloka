@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/Navigation/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/drawable-notouch/circle.xml" value="0.24322916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.290625" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/drawable/bootton.xml" value="0.290625" />
@@ -10,11 +11,22 @@
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/drawable/mic.xml" value="0.1" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/Auth.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_auth.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_base_lens.xml" value="0.1" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_camera.xml" value="0.8" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_lpgin.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_main_new.xml" value="0.14375" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_map.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_maps.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_registration.xml" value="0.176" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/app_bar_map.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/card_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/content_map.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/fragment_slideshow.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/GOPIKA/AndroidStudioProjects/Aloka/app/src/main/res/layout/nav_header_map.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Aloka/app/src/main/res/layout/activity_login.xml" value="0.25" />
       </map>
     </option>
@@ -24,5 +36,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Aloka.app" />
+      </set>
+    </option>
   </component>
 </project>

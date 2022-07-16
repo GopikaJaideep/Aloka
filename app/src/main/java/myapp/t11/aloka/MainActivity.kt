@@ -1,6 +1,4 @@
 package myapp.t11.aloka
-
-
 import android.app.KeyguardManager
 import android.content.Context
 import android.content.DialogInterface
@@ -8,12 +6,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.hardware.biometrics.BiometricPrompt
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CancellationSignal
 import android.widget.Button
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 class MainActivity : AppCompatActivity() {
     private var cancellationSignal: CancellationSignal? = null
@@ -28,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                 override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult?) {
                     super.onAuthenticationSucceeded(result)
                     notifyUser("Authentication Success!")
-                    startActivity(Intent(this@MainActivity, Main::class.java))
+                    startActivity(Intent(this@MainActivity, SplashActivity::class.java))
                 }
             }
     
