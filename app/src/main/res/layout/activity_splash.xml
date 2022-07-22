@@ -7,13 +7,31 @@
     tools:context="SplashActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="ALOKA"
+        android:layout_width="302dp"
+        android:layout_height="194dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="185dp"
+        android:text="WELCOME
+                        TO
+                       ALOKA"
+        android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#3949AB"
-        android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/logo" />
 
 </RelativeLayout>

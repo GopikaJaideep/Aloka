@@ -13,6 +13,7 @@ import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
+import kotlinx.parcelize.Parcelize
 import myapp.t11.aloka.barcode.BarcodeAnalyzer
 import myapp.t11.aloka.databinding.ActivityBaseLensBinding
 
