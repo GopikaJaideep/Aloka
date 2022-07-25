@@ -18,21 +18,25 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
         "QR/Barcode scanning",
         "Face detection",
         "Image labeling",
-        "Text recognition"
+        "Text recognition",
+        "Navigation"
     )
     private var desc =
         arrayOf(
             "Scan and process barcodes. Supports most standard 1D and 2D formats.",
             "Detect faces and facial landmarks.",
             "Identify objects, locations, activities, animal species, products, and more. Use a general-purpose base model to your use case with a custom TensorFlow Lite model.",
-            "Recognize and extract text from images."
+            "Recognize and extract text from images.",
+            "For ease of navigation"
         )
 
     private var image = intArrayOf(
         R.drawable.barcode_scanning,
         R.drawable.face_detection,
         R.drawable.image_labeling,
-        R.drawable.text_recognition
+        R.drawable.text_recognition,
+        R.drawable.navigation
+
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -80,6 +84,11 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
                 }
                 3 -> {
                     context.startActivity(Intent(context, TextRecognitionActivity::class.java).putExtra("tb",title[pos]))
+                }
+                4 -> {
+                    val intent=Intent()
+                    intent.setClassName(context.packageName,"myapp.t11.Navigation.Activities.NaviMain")
+                    context.startActivity(intent)
                 }
             }
         }

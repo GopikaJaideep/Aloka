@@ -14,7 +14,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Aloka">
+        android:theme="@style/Theme.Aloka"
+        tools:replace="android:label,android:theme">
         <activity
             android:name=".Main"
             android:exported="false" />
@@ -40,9 +41,11 @@
             android:name=".facedetect.FaceDetectActivity"
             android:exported="true" />
         <activity
+            android:name=".voice.VoiceActivity"
+            android:exported="true" />
+        <activity
             android:name=".barcode.BarcodeActivity"
-            android:exported="true"
-           />
+            android:exported="true" />
         <activity
             android:name=".imagelabeler.ImageLabelingActivity"
             android:exported="false" />

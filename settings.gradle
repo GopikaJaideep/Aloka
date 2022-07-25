@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Aloka"
 include ':app'
+include ':navigate'
+include ':sdk'

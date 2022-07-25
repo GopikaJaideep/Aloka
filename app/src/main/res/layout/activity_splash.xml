@@ -19,8 +19,8 @@
                        ALOKA"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#3949AB"
-        android:textSize="45sp"
+        android:textColor="#FF03DAC5"
+        android:textSize="50sp"
         android:textStyle="bold" />
 
     <ImageView

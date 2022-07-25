@@ -22,7 +22,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -73,6 +74,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     def biometricLibraryVersion = "1.0.1"
     implementation "androidx.biometric:biometric:$biometricLibraryVersion"
+    implementation project(':navigate')
+    implementation "app.alan:sdk:4.12.0"
 }
 android
         {

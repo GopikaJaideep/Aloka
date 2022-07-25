@@ -1,4 +1,5 @@
 package myapp.t11.aloka
+
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -10,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import kotlinx.parcelize.Parcelize
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import myapp.t11.aloka.barcode.BarcodeActivity
@@ -18,6 +18,7 @@ import myapp.t11.aloka.databinding.ActivityMain2Binding
 import myapp.t11.aloka.facedetect.FaceDetectActivity
 import myapp.t11.aloka.imagelabeler.ImageLabelingActivity
 import myapp.t11.aloka.textrecog.TextRecognitionActivity
+
 
 
 class Main : AppCompatActivity() {
@@ -43,7 +44,6 @@ class Main : AppCompatActivity() {
         layoutManager = LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false)
         binding.recyclerView.layoutManager = layoutManager
         binding.recyclerView.adapter = RecyclerAdapter()
-
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
             != PackageManager.PERMISSION_GRANTED
@@ -84,8 +84,11 @@ class Main : AppCompatActivity() {
         binding.btnTextRecogActivity.setOnClickListener {
             startActivity(Intent(this, TextRecognitionActivity::class.java))
         }
-
-
+      binding.btnMap.setOnClickListener{
+          val intent=Intent()
+          intent.setClassName(packageName,"myapp.t11.Navigation.Activities.NaviMain")
+          startActivity(intent)
+      }
     }
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
 
