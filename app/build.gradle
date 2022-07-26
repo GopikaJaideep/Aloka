@@ -54,7 +54,7 @@ dependencies {
     implementation "androidx.camera:camera-view:1.2.0-alpha03"
     // If you want to additionally use the CameraX Extensions library
     implementation "androidx.camera:camera-extensions:1.2.0-alpha03"
-
+implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     implementation 'com.google.mlkit:barcode-scanning:17.0.2'
     implementation 'com.google.mlkit:face-detection:16.1.5'
 
