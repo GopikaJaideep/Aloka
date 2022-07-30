@@ -86,7 +86,7 @@ class Main : AppCompatActivity() {
         }
       binding.btnMap.setOnClickListener{
           val intent=Intent()
-          intent.setClassName(packageName,"myapp.t11.Navigation.Activities.NaviMain")
+          intent.setClassName(packageName,"myapp.t11.Navigation.Activities.NaviMain.kt")
           startActivity(intent)
       }
     }

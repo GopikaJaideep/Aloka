@@ -7,7 +7,7 @@ plugins {
 
 android {
     compileSdk 32
-
+    buildToolsVersion "30.0.2"
     defaultConfig {
         applicationId "myapp.t11.aloka"
         minSdk 28
@@ -43,7 +43,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    testImplementation 'junit:junit:4.1'
+    testImplementation 'junit:junit:4.13.2'
     def camerax_version = "1.0.2"
     // The following line is optional, as the core library is included indirectly by camera-camera2
     implementation "androidx.camera:camera-core:1.2.0-alpha03"
@@ -75,6 +75,7 @@ implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
     def biometricLibraryVersion = "1.0.1"
     implementation "androidx.biometric:biometric:$biometricLibraryVersion"
     implementation project(':navigate')
+    implementation project(':sdk')
     implementation "app.alan:sdk:4.12.0"
 }
 android
