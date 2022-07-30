@@ -86,7 +86,7 @@ class Main : AppCompatActivity() {
         }
       binding.btnMap.setOnClickListener{
           val intent=Intent()
-          intent.setClassName(packageName,"myapp.t11.Navigation.Activities.NaviMain.kt")
+          intent.setClassName(packageName,"myapp.t11.aloka.navigate.Activities.NaviMain.kt")
           startActivity(intent)
       }
     }

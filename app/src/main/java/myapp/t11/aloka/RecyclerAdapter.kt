@@ -87,7 +87,7 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
                 }
                 4 -> {
                     val intent=Intent()
-                    intent.setClassName(context.packageName,"myapp.t11.Navigation.Activities.NaviMain")
+                    intent.setClassName(context.packageName,"myapp.t11.aloka.navigate.Activities.NaviMain")
                     context.startActivity(intent)
                 }
             }
